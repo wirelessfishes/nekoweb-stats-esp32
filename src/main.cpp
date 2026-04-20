@@ -8,7 +8,6 @@
 #include "secrets.h"
 
 #define UPDATE_INTERVAL_MINUTES 5
-#define NEKOWEB_API_URL "https://nekoweb.org/api/site/info/furshark.net"
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 HTTPClient http;
