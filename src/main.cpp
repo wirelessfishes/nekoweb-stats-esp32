@@ -5,9 +5,7 @@
 #include <WiFi.h>
 #include <Wire.h>
 
-#include "secrets.h"
-
-#define UPDATE_INTERVAL_MINUTES 5
+#include "config.h"
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 HTTPClient http;
